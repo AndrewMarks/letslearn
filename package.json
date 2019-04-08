@@ -1,0 +1,22 @@
+{
+  "name": "letslearn",
+  "version": "1.0.0",
+  "description": "Welcome Walter and Andrew - you've both expressed interest in learning more programming, learning how apis work - and maybe even what they are! - and about how to work with map and location data held by third parties.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzeSO/letslearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzeSO/letslearn/issues"
+  },
+  "homepage": "https://github.com/suzeSO/letslearn#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
