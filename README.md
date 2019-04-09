@@ -6,6 +6,8 @@ This project is your learning sandbox for these things.
 
 You'll notice that there are already some folders and files in this directory - don't worry about understanding everything that's in them, but take a look to familiarise yourself with the structure of the project :)
 
+#### Task 1:
+
 Your first task is as follows:
 
 - if you're reading this file, you should already have copied this project to your machine (great!) - please move it from `Downloads` into `Documents`.
@@ -46,6 +48,16 @@ from the command line before you can start work. all javascript projects made wi
 
 - you'll see that currently, we only have one test, and it's failing. this is expected behaviour at this point - we haven't written the code that will make it pass! your task today is to make this test pass.
 
+#### Task 2:
+
+- well done on completing the first task! today we're going to get you familiar with the javascript syntax and style for some more basic operations, and keep learning how to use tests.
+
+* if you look in `test/letslearn.test.js` you'll see some new tests there - work through these one by one to make them pass!
+
+* you'll also see a space left with instructions for you to write your own test, and make that test pass. for this part of the task, think carefully about what behaviour you are expecting from the program at each stage. the test will of course fail before you've implemented the code to make it pass, but _how_ is it failing? try to think about what kind of error message you are expecting before you run it - remember, tests are just code, and can fail because they have errors in them, before they even get to test the code you've written. thinking about expected behaviour - both of tests and of code - allows you to maintain a mental model of what is happening in the program, and to more quickly realise where there are bugs in your own thinking :)
+
+* remember to commit your code at suitable points (like we discussed yesterday), i will be reviewing your commit history and your version hygiene ;). push up to github when you're done with today's task. good luck!
+
 ### Suggestions:
 
 - work on one piece of the program at a time, and worry only about making one of the tests pass at a time. this - as it is in any scientific or engineering project - is good practice as it allows you to isolate the moving parts within the system and see where a problem is coming from. work on making on test at a time pass, and only make one significant change in the code between running each test. this saves you time in the long run, as it should always be clear exactly what part of the code that you've written is breaking, creating unexpected behaviour, or otherwise causing tests to fail. if you only have one test (like today), read the error messages that jest is giving you carefully, and take care to see whether you're getting a differente error message this time, this can tell you a lot about the progress you're making!
@@ -56,4 +68,4 @@ from the command line before you can start work. all javascript projects made wi
 
 * google your errors! chances are someone else has had this problem before - learn from them and from what their community said to help them. a good place to go is Stack Overflow, and these are often the first links you'll see when googling an error. remember that very often the answers given to another person won't map one to one with the specifics of your problem - it's up to you to use the information you find and adapt it to solve the error you have, and its causes.
 
-* useful keywords for thinking about and researching this task are `class`, `class method`, and `return value`
+* useful keywords for thinking about and researching this task are `class`, `class method`, and `return value`, `string interpolation`, `array indeces`, `modulo`
