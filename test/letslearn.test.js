@@ -142,3 +142,8 @@ describe("returns if in the list", () => {
   });
 
 });
+
+// well done for grouping all tests for one function in a describe block, v good practice.
+// what i can't see from this test is that the function returns the expected value when a name
+// that isn't on the list is passed - remember to always test for all the expected behaviour of your functions!
+// before you write the new test, try to form a clear hypothesis about if it will pass/why it will pass

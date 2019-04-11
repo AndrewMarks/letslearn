@@ -32,6 +32,11 @@ class LetsLearn {
         return a/b;
     }
 
+    // well done! this number handling is nice and clean :) try to think about ways to make these
+    // argument names more clear, bearing in mind possible collaborators on the code (including your future self
+    // your most frequent collaborator). what does 'a' tell me about what this argument is for: consider
+    // alternatives like 'operand1' or similar
+
     isEvenlyDivisible (a,b) {
         if (a % b == 0) {
             return true;
@@ -62,6 +67,10 @@ class LetsLearn {
         }
     }
 
+    // really great to see you using conditionals so confidently! there's a shorter way to
+    // implement these functions that doesn't use conditionals at all - can you (using some research!)
+    // figure out what it is?
+
     writeDownThisNumber (num) {
         return String (num);
     }
@@ -74,6 +83,9 @@ class LetsLearn {
         var lenlist = list.length;
         return list[lenlist-1];
     }
+
+    // this is clever, but there's a super useful built in js method to do this -
+    // can you find it and implement it?
 
     valueAtIndex (list, num) {
         return list[num];
@@ -94,6 +106,8 @@ class LetsLearn {
             return true
         }
     }
+
+    // see my notes on the tests who wrote in ../test/letsLearn.test.js
 
 
 
