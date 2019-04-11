@@ -7,7 +7,7 @@ test("returns a the string 'let's learn!'", () => {
 // New tests start here! First up, handling numbers:
 
 test("returns the number 5", () => {
-  expect(letsLearn.gimmeFive().toEqual(5));
+  expect(letsLearn.gimmeFive()).toEqual(5);
 });
 
 test("returns the number passed as argument", () => {
@@ -43,6 +43,8 @@ describe("returns whether two passed arguments are evenly divisible", () => {
 });
 
 // While we're here, what do you think these 'describe' blocks are doing?
+// my guess is that they are helping to contain multiple tests that are impacted by the same function? 
+// Looks like it impacts the terminal log of these tests.
 
 describe("returns whether two passed arguments are the same", () => {
   test("returns true if the two passed arguments are the same", () => {
@@ -77,6 +79,7 @@ describe("switches the boolean polarity of the passed argument", () => {
 test("returns the passed number and a string", () => {
   expect(letsLearn.writeDownThisNumber(8)).toEqual("8");
 });
+
 describe("returns 'my name is <the name passed>' as argument", () => {
   test("returns 'my name is andrew", () => {
     expect(letsLearn.hello("andrew")).toEqual("my name is andrew");
@@ -123,3 +126,19 @@ test("returns length of passed list", () => {
 
 // and now... it's your turn! On the line below, write a test that checks that a method called amIOnTheList returns true if the name passed is in this array ['suze', 'andrew', 'walter'] and false otherwise, and make it pass!
 
+
+describe("returns if in the list", () => {
+  test("returns if suze is in the list", () => {
+    const list = ['suze', 'andrew', 'walter'];
+    expect(letsLearn.amIOnTheList('suze')).toEqual(true)
+  });
+  test("returns if andrew is in the list", () => {
+    const list = ['suze', 'andrew', 'walter'];
+    expect(letsLearn.amIOnTheList('andrew')).toEqual(true)
+  });
+  test("returns if walter is in the list", () => {
+    const list = ['suze', 'andrew', 'walter'];
+    expect(letsLearn.amIOnTheList('walter')).toEqual(true)
+  });
+
+});
